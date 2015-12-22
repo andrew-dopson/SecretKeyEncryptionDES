@@ -85,8 +85,8 @@ public class SecretKeyEncryption {
 		sBoxes.add(s7);
 		sBoxes.add(s8);
 		
-		//System.out.print("Enter the file you would like to encrypt: ");
-		File fileName = new File("~/SecretKeyEncryptionDES/src/test.txt");
+		//Enter the path to the test.txt file in src folder
+		File fileName = new File("/Users/andrewdopson/Documents/SecretKeyEncryptionDES/src/test.txt");
 		//method that converts the given file into a complete string
 		textString = fileToString(fileName);
 		//method that converts the string above into a binary string of 64 bit blocks
